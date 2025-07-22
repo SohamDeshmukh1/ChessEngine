@@ -1,0 +1,10 @@
+# Build and VS-specific files
+*.exe
+*.obj
+*.log
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+/.vs/
+/x64/
