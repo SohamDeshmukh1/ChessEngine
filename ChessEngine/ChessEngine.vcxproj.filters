@@ -41,5 +41,8 @@
     <ClInclude Include="Board\Board.h">
       <Filter>Board</Filter>
     </ClInclude>
+    <ClInclude Include="defbits.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

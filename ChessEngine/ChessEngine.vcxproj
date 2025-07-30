@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClInclude Include="Board\Board.h" />
     <ClInclude Include="ChessEngine.h" />
+    <ClInclude Include="defbits.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
