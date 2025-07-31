@@ -27,9 +27,6 @@
     <ClCompile Include="ChessEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Board\Board.cpp">
-      <Filter>Board</Filter>
-    </ClCompile>
     <ClCompile Include="Pieces\Pieces.cpp">
       <Filter>Pieces</Filter>
     </ClCompile>
@@ -40,9 +37,6 @@
     </ClInclude>
     <ClInclude Include="Board\Board.h">
       <Filter>Board</Filter>
-    </ClInclude>
-    <ClInclude Include="defbits.h">
-      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

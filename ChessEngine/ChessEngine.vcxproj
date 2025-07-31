@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Board\Board.cpp" />
     <ClCompile Include="ChessEngine.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Pieces\Pieces.cpp" />
@@ -131,7 +130,6 @@
   <ItemGroup>
     <ClInclude Include="Board\Board.h" />
     <ClInclude Include="ChessEngine.h" />
-    <ClInclude Include="defbits.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
