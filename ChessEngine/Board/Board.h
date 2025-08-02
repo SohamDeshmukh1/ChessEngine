@@ -78,3 +78,10 @@ typedef struct {
 
 S_Undo History[MAXMOVES];  // Never though it would in the way like every array index
 //holds all these elemts never saw that coming
+
+/*  ---------- GLOBALS -----------  */
+
+extern int Sqr120to64[TOTAL_SQ];
+extern int Sqr64to120[64];
+
+/*  ---------- Macros -----------  */

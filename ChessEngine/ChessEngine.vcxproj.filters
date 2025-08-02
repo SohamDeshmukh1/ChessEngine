@@ -30,6 +30,9 @@
     <ClCompile Include="Pieces\Pieces.cpp">
       <Filter>Pieces</Filter>
     </ClCompile>
+    <ClCompile Include="Board\Board.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChessEngine.h">
