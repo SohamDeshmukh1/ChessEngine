@@ -2,6 +2,7 @@
 #include<cstdint> //stdint.h is for c, cstdint this one is made for cpp 
 #include<iostream>
 #define TOTAL_SQ 120
+#define MAXMOVES 1048
 
 // I Hope i learn Stuff while Doing this
 
@@ -34,6 +35,9 @@ public:
 	enum class TEAM { // Idk to keep the Count of the Teams maybe?
 		BLACK, WHITE, BOTH
 	};
+	enum class CASTLING { // Defining Castling perm white king/queen and Smiliary for Black too
+		WKCA = 1 , WQCA = 2 , BKCA = 4 , BQCA = 8
+	};
 	bool State = true;
 };
 
@@ -41,26 +45,36 @@ typedef struct {
 	// We need ummm place for Pieces
 	
 	int piece[TOTAL_SQ];
-	std::uint64_t Pawn[3];
-
-	int KingSq[2]; // identify king square
+	std::uint64_t Pawn[3]; //To track Pawns
 	
+	int KingSq[2]; // identify King square
+	int EnPas;
 	int Side;		// Whos side or turn it is
-	int FiftyMov; // 50 move Rule of Chess
+	int FiftyMov; 
 
 	int ply; //Current half-move number within the current search 
-	int hisply; //Total number of half-moves in the current entire game history
+	int hisply; // history
 
-	int Castling;
+	int CastlPerm;
 
 	/* Below Are More of the Granular Control Variables */
 
-	std::uint64_t PceNum[13];
-	int BigPce[3]; // 1 for Black 1 for White 1 for Total of them
-	// Bigpce means except pawn 
+	std::uint64_t PceNum[13]; // 0-12 for all pieces and an Empty place reserved
+	
+	int BigPce[3]; // 1 for Black 1 for White 1 for Total of them except Pawns
+	
 	int MajPce[3]; // Rooks and Queen Similar to above
 	int MinPce[3]; // Bishop and Knight
 
-
-
 }S_Board ;
+
+typedef struct {
+	int Move;
+	int FiftyMov;
+	int CastlPerm;
+	int EnPas;
+	std::uint64_t PosKey;
+} S_Undo;
+
+S_Undo History[MAXMOVES];  // Never though it would in the way like every array index
+//holds all these elemts never saw that coming
