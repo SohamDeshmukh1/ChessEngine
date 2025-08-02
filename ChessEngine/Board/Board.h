@@ -66,7 +66,7 @@ typedef struct {
 	int MajPce[3]; // Rooks and Queen Similar to above
 	int MinPce[3]; // Bishop and Knight
 
-}S_Board ;
+} S_Board ;
 
 typedef struct {
 	int Move;
@@ -77,7 +77,7 @@ typedef struct {
 } S_Undo;
 
 S_Undo History[MAXMOVES];  // Never though it would in the way like every array index
-//holds all these elemts never saw that coming
+//holds all these elements never saw that coming (just my thought)
 
 /*  ---------- GLOBALS -----------  */
 
@@ -85,3 +85,7 @@ extern int Sqr120to64[TOTAL_SQ];
 extern int Sqr64to120[64];
 
 /*  ---------- Macros -----------  */
+
+#define FR2SQ(f, r) ( (21 + (f)) + ((r) * 10) )
+// He has a good namig Convention 
+// i was about to name it SqrPos but it still sounds same i guess?
