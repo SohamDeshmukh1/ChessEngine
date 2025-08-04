@@ -6,7 +6,7 @@
 
 // I Hope i learn Stuff while Doing this
 
-	enum SQUARE {
+	enum {
 		
 		A1 = 21, B1, C1, D1, E1, F1, G1, H1,
 		A2 = 31, B2, C2, D2, E2, F2, G2, H2,
@@ -17,23 +17,23 @@
 		A7 = 81, B7, C7, D7, E7, F7, G7, H7,
 		A8 = 91, B8, C8, D8, E8, F8, G8, H8
 	};
-	enum RANK {
+	enum { 
 		// The Rank numbering of the board
 		RANK_1, RANK_2, RANK_3, RANK_4, RANK_5,
 		RANK_6, RANK_7, RANK_8, RANK_NONE
 	};
-	enum PIECE {EMPTY, // All The Pieces of thge Board 	
+	enum {EMPTY, // All The Pieces of thge Board 	
 		Wp, Wr, Wb, Wn, Wk, Wq,
 		Bp, Br, Bb, Bn, Bk, Bq
 	};
-	enum FILE { // Similar to the Ranks but The Alphabets 
+	enum { // Similar to the Ranks but The Alphabets 
 		FILE_A, FILE_B, FILE_C,
 		FILE_D, FILE_E, FILE_F, FILE_G, FILE_H, FILE_NONE
 	};
-	enum TEAM { // Idk to keep the Count of the Teams maybe?
+	enum  { // Idk to keep the Count of the Teams maybe?
 		BLACK, WHITE, BOTH
 	};
-	enum CASTLING { // Defining Castling perm white king/queen and Smiliary for Black too
+	enum  { // Defining Castling perm white king/queen and Smiliary for Black too
 		WKCA = 1 , WQCA = 2 , BKCA = 4 , BQCA = 8
 	};
 	bool State = true;
