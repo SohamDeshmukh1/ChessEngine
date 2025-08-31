@@ -1,9 +1,13 @@
-#include "Board.h";
+#include "Board.h"
 
 int Sqr120to64[TOTAL_SQ];
 int Sqr64to120[64];
 
-void SQ120to64() {
+void InitSQ120to64() {
+
+	bool State = true;
+	 // Due to Linking issue we cant Make a Stroage in Headers
+	// Lesson Leanred
 
 	int rank = RANK_1;
 	int file = FILE_A;
@@ -27,3 +31,6 @@ void SQ120to64() {
 		}
 	}
 }
+void AllInit() {
+	InitSQ120to64();
+};

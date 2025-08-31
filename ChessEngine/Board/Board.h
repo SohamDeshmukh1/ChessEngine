@@ -36,7 +36,7 @@
 	enum  { // Defining Castling perm white king/queen and Smiliary for Black too
 		WKCA = 1 , WQCA = 2 , BKCA = 4 , BQCA = 8
 	};
-	bool State = true;
+	extern bool State;
 
 typedef struct {
 
@@ -72,9 +72,7 @@ typedef struct {
 	int EnPas;
 	std::uint64_t PosKey;
 } S_Undo;
-
-S_Undo History[MAXMOVES]; 
-
+extern S_Undo History[MAXMOVES];
 /*  ---------- GLOBALS -----------  */
 
 extern int Sqr120to64[TOTAL_SQ];
@@ -83,3 +81,7 @@ extern int Sqr64to120[64];
 
 #define FR2SQ(f, r) ( (21 + (f)) + ((r) * 10) )
 // Returns 120 SQ value
+
+/*  ---------- Functions -----------  */
+
+extern void AllInit();
