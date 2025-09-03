@@ -1,5 +1,7 @@
 #pragma once
-#include<cstdint> //stdint.h is for c, cstdint this one is made for cpp 
+#include<cstdint> //stdint.h is for c, cstdint this one is made for cpp used for uint stuff
+#include<cstdlib>
+#include<assert.h>
 #include<iostream>
 #define TOTAL_SQ 120
 #define MAXMOVES 2048
@@ -62,6 +64,8 @@ typedef struct {
 	
 	int MajPce[3]; // Rooks and Queen Similar to above
 	int MinPce[3]; // Bishop and Knight
+
+	int pList[13][10];
 
 } S_Board ;
 
