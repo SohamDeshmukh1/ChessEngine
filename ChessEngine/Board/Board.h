@@ -77,6 +77,7 @@ typedef struct {
 	std::uint64_t PosKey;
 } S_Undo;
 extern S_Undo History[MAXMOVES];
+int Plist[13][10];
 /*  ---------- GLOBALS -----------  */
 
 extern int Sqr120to64[TOTAL_SQ];
