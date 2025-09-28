@@ -13,7 +13,7 @@ void InitSQ120to64() {
 	int file = FILE_A;
 	int index = 0;
 	int sqr = A1;
-	int sqr64 = 0; 
+	int sqr64 = 0;  
 
 	for (index = 0; index < TOTAL_SQ; ++index) {
 		Sqr120to64[index] = 65;

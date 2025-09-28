@@ -33,11 +33,11 @@
     <ClCompile Include="Board\Board.cpp">
       <Filter>Board</Filter>
     </ClCompile>
+    <ClCompile Include="Board\BitBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChessEngine.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Board\Board.h">
       <Filter>Board</Filter>
     </ClInclude>

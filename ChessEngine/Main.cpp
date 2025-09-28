@@ -1,4 +1,4 @@
-#include "ChessEngine.h"
+#include "ChessEngine.cpp"
 int main() {
 	ChessEngine();
 }

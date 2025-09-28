@@ -77,15 +77,17 @@ typedef struct {
 	std::uint64_t PosKey;
 } S_Undo;
 extern S_Undo History[MAXMOVES];
-int Plist[13][10];
+extern int Plist[13][10];
 /*  ---------- GLOBALS -----------  */
 
 extern int Sqr120to64[TOTAL_SQ];
 extern int Sqr64to120[64];  
+
 /*  ---------- Macros  -----------  */
 
 #define FR2SQ(f, r) ( (21 + (f)) + ((r) * 10) )
-// Returns 120 SQ value
+/// Returns 120 SQ value
+#define SQ64(sq120) Sqr120to64[sq120]
 
 /*  ---------- Functions -----------  */
 
