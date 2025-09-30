@@ -13,8 +13,10 @@ void PrintBitBoard(uint64_t BB) {
 
 	for (rank = RANK_8; rank >= RANK_1; --rank) {
 		for (file = FILE_A; file <= FILE_H; file++) {
-
+			sqr = FR2SQ(file, rank); // Gives out 120 based Index
+			srq64 =  SQ64(sqr) ;
 		}
+		std::cout << std::endl;
 	}
-
+	std::cout << std::endl;
 }

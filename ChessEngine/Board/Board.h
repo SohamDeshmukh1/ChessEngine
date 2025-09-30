@@ -86,7 +86,7 @@ extern int Sqr64to120[64];
 /*  ---------- Macros  -----------  */
 
 #define FR2SQ(f, r) ( (21 + (f)) + ((r) * 10) )
-/// Returns 120 SQ value
+/// Returns 120 SQ value Taking input of File and Rank and gives out 120 based Index
 #define SQ64(sq120) Sqr120to64[sq120]
 
 /*  ---------- Functions -----------  */

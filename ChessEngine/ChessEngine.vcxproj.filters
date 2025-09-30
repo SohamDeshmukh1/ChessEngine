@@ -34,7 +34,7 @@
       <Filter>Board</Filter>
     </ClCompile>
     <ClCompile Include="Board\BitBoard.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Board</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
