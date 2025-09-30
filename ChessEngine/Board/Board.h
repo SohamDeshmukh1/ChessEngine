@@ -87,8 +87,11 @@ extern int Sqr64to120[64];
 
 #define FR2SQ(f, r) ( (21 + (f)) + ((r) * 10) )
 /// Returns 120 SQ value Taking input of File and Rank and gives out 120 based Index
+
 #define SQ64(sq120) Sqr120to64[sq120]
+// gets the Value of 64 Squre box by passing the address of 120square Board
 
 /*  ---------- Functions -----------  */
 
-extern void AllInit();
+extern void AllInit(); // Create a Board to Play on
+extern void PlayBitBoard(uint64_t BB); // Create the Bitboard for Calculations
