@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCore.a CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o
+/usr/bin/ranlib libCore.a

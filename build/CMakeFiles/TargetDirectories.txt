@@ -1,0 +1,4 @@
+/home/engine/Program/ChessEngine/build/CMakeFiles/Core.dir
+/home/engine/Program/ChessEngine/build/CMakeFiles/ChessE.dir
+/home/engine/Program/ChessEngine/build/CMakeFiles/edit_cache.dir
+/home/engine/Program/ChessEngine/build/CMakeFiles/rebuild_cache.dir
