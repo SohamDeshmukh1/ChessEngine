@@ -76,43 +76,43 @@ CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o: CMakeFiles/Core.dir/flag
 CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o: /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp
 CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o: CMakeFiles/Core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/engine/Program/ChessEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o -MF CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o.d -o CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o -MF CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o.d -o CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp
 
 CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp > CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp > CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.i
 
 CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp -o CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp -o CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.s
 
 CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o: CMakeFiles/Core.dir/flags.make
 CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o: /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp
 CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o: CMakeFiles/Core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/engine/Program/ChessEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o -MF CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o.d -o CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o -MF CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o.d -o CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp
 
 CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp > CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp > CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.i
 
 CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp -o CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp -o CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.s
 
 CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o: CMakeFiles/Core.dir/flags.make
 CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o: /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp
 CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o: CMakeFiles/Core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/engine/Program/ChessEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o -MF CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o.d -o CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o -MF CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o.d -o CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp
 
 CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp > CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp > CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.i
 
 CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp -o CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp -o CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.s
 
 # Object files for target Core
 Core_OBJECTS = \

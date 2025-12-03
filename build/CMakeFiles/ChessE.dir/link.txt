@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/ChessE.dir/link.d CMakeFiles/ChessE.dir/ChessEngine/Main.cpp.o -o ChessE  libCore.a
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ChessE.dir/link.d CMakeFiles/ChessE.dir/ChessEngine/Main.cpp.o -o ChessE  libCore.a
