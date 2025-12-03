@@ -1,8 +1,8 @@
-#include "Board.hpp"
+#include "Board.h"
 #include <iostream>
 
 void PlayBitBoard(uint64_t BB) {
-	uint64_t ShiftPoint;
+	uint64_t ShiftPoint = 1ULL;
 
 	int rank = 0;
 	int file = 0;
