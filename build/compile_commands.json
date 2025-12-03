@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/engine/Program/ChessEngine/build",
+  "command": "/usr/bin/g++  -I/home/engine/Program/ChessEngine/ChessEngine/Includes -g -o CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp",
+  "file": "/home/engine/Program/ChessEngine/ChessEngine/Library/BitBoard.cpp",
+  "output": "CMakeFiles/Core.dir/ChessEngine/Library/BitBoard.cpp.o"
+},
+{
+  "directory": "/home/engine/Program/ChessEngine/build",
+  "command": "/usr/bin/g++  -I/home/engine/Program/ChessEngine/ChessEngine/Includes -g -o CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp",
+  "file": "/home/engine/Program/ChessEngine/ChessEngine/Library/Board.cpp",
+  "output": "CMakeFiles/Core.dir/ChessEngine/Library/Board.cpp.o"
+},
+{
+  "directory": "/home/engine/Program/ChessEngine/build",
+  "command": "/usr/bin/g++  -I/home/engine/Program/ChessEngine/ChessEngine/Includes -g -o CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp",
+  "file": "/home/engine/Program/ChessEngine/ChessEngine/Library/ChessEngine.cpp",
+  "output": "CMakeFiles/Core.dir/ChessEngine/Library/ChessEngine.cpp.o"
+},
+{
+  "directory": "/home/engine/Program/ChessEngine/build",
+  "command": "/usr/bin/g++  -I/home/engine/Program/ChessEngine/ChessEngine/Includes -g -o CMakeFiles/ChessE.dir/ChessEngine/Main.cpp.o -c /home/engine/Program/ChessEngine/ChessEngine/Main.cpp",
+  "file": "/home/engine/Program/ChessEngine/ChessEngine/Main.cpp",
+  "output": "CMakeFiles/ChessE.dir/ChessEngine/Main.cpp.o"
+}
+]

@@ -9,6 +9,7 @@ void PlayBitBoard(uint64_t BB) {
 	int sqr = 0;
 	int sqr64 = 0;
 	
+
 	std::cout << std::endl;
 
 	for (rank = RANK_8; rank >= RANK_1; --rank) {
