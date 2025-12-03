@@ -1,4 +1,7 @@
 {
     "C_Cpp.default.compilerPath": "/usr/bin/gcc",
-    "cmake.sourceDirectory": "/home/engine/Program/ChessEngine"
+    "cmake.sourceDirectory": "/home/engine/Program/ChessEngine",
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
